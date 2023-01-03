@@ -1,4 +1,5 @@
 extern crate ply_rs;
+extern crate clap;
 use ply_rs as ply;
 use ply_rs::writer::Writer;
 use ply_rs::ply::{Encoding};
@@ -12,7 +13,7 @@ fn main() {
         .author("Sriram Vijendran <vijendran.sriram@gmail.com>")
         .about("Converts .ply file encoding")
         .arg(arg!([file] ".ply file").required(true))
-        .arg(arg!([encoding] "file encoding").required(true))
+        .arg(arg!([encoding] "file encoding. be for big endian, le for little endian, ascii for Ascii ").required(true))
         .get_matches();
 
     // set up a reader, in this case a file.
