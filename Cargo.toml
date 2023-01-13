@@ -1,11 +1,11 @@
 [package]
 name = "plyparse"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Sriram Vijendran <vijendran.sriram@email.com>"]
 license = "MIT"
 description = "A tool to search files"
 readme = "README.md"
-homepage = "https://github.com/sriramv/plyparse"
+homepage = "https://github.com/sriram98v/plyparse"
 repository = "https://github.com/sriram98v/plyparse"
 keywords = ["cli", "ply"]
 categories = ["command-line-utilities"]
