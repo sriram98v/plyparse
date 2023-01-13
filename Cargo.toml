@@ -6,7 +6,7 @@ license = "MIT"
 description = "A tool to search files"
 readme = "README.md"
 homepage = "https://github.com/sriramv/plyparse"
-repository = "https://github.com/sriramv/plyparse"
+repository = "https://github.com/sriram98v/plyparse"
 keywords = ["cli", "ply"]
 categories = ["command-line-utilities"]
 
